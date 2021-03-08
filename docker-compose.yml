@@ -7,17 +7,9 @@ services:
 # mysql es el nombre que vamos a dar a este primer servidor
   # Será el nombre que tendremos que usar cuando nos refiramos a él
   mysql:
-  #  image: mysql:5.7
     build: mysql/
     ports:
       - 3306:3306
-  #  environment:
-  #    MYSQL_ROOT_PASSWORD: root
-  #    MYSQL_USER: dwes
-  #    MYSQL_PASSWORD: dwes
-  #    MYSQL_DATABASE: dwes
-  #  volumes:
-  #    - mysql_data:/var/lib/mysql/
 
   # phpmyadmin
   phpmyadmin:
