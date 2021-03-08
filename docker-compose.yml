@@ -44,5 +44,4 @@ services:
       - proyecto:/var/www/html/
 
 volumes:
-#  mysql_data:
   proyecto:
